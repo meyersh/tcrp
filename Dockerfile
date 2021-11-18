@@ -6,7 +6,7 @@ ENV CGO_ENABLED=0
 ENV GOOS=linux
 
 WORKDIR /go/src/github.com/meyersh/tcrp/
-COPY main.go go.mod .
+COPY main.go go.mod ./
 RUN go build
 
 FROM scratch
