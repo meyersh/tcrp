@@ -11,7 +11,7 @@ clients.
 Configuration occurs through environmental variables and this program
 is otherwise stateless.
 
-Variables:
-
-`UPSTREAM_URL`: The upstream url to hit for content.
-`REFRESH_PERIOD`: The frequency of updates (in seconds)
+| Variable | Description |
+| -------- | ------------ |
+| `UPSTREAM_URL` | The upstream url to hit for content. |
+| `REFRESH_PERIOD` | The frequency of updates (in seconds) |
